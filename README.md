@@ -1,8 +1,9 @@
-# audit-skills
+# Claudeskill — Audit-Skills Marketplace
 
-Privater Claude Code Plugin-Marketplace mit 8 Audit-Skills, die zu 100 %
-auf **Gruendlichkeit** ausgerichtet sind (kein Sparen mit Agenten, Zeit
-oder Tokens — Anti-Spar-Protokoll explizit eingebaut).
+Privater Claude Code Plugin-Marketplace (`alexenglaender-bot/Claudeskill`)
+mit 8 Audit-Skills, die zu 100 % auf **Gruendlichkeit** ausgerichtet sind
+(kein Sparen mit Agenten, Zeit oder Tokens — Anti-Spar-Protokoll explizit
+eingebaut).
 
 ## Skills
 
@@ -42,11 +43,8 @@ Voraussetzung: Claude Code installiert und du bist auf dem Geraet eingeloggt.
 
 ```bash
 # Im Claude Code Slash-Prompt:
-/plugin marketplace add Innovation-Tank-gGmbH/audit-skills-plugin
+/plugin marketplace add alexenglaender-bot/Claudeskill
 ```
-
-(Ersetze `Innovation-Tank-gGmbH/audit-skills-plugin` durch dein tatsaechliches
-GitHub-Repo, sobald gepusht.)
 
 ### Schritt 2: Bei privatem Repo: GitHub-Token setzen
 
@@ -68,14 +66,14 @@ Interaktion.
 
 ```bash
 # Im Claude Code Slash-Prompt — alle 8 auf einmal:
-/plugin install securityaudit@audit-skills
-/plugin install uiaudit@audit-skills
-/plugin install rechtsaudit@audit-skills
-/plugin install funktionsaudit@audit-skills
-/plugin install audit-security@audit-skills
-/plugin install audit-ux@audit-skills
-/plugin install audit-qa@audit-skills
-/plugin install audit-compliance@audit-skills
+/plugin install securityaudit@Claudeskill
+/plugin install uiaudit@Claudeskill
+/plugin install rechtsaudit@Claudeskill
+/plugin install funktionsaudit@Claudeskill
+/plugin install audit-security@Claudeskill
+/plugin install audit-ux@Claudeskill
+/plugin install audit-qa@Claudeskill
+/plugin install audit-compliance@Claudeskill
 ```
 
 Oder nur die generischen, wenn das Geraet nichts mit Ma-Management zu tun hat.
@@ -113,8 +111,8 @@ Auf den anderen Geraeten:
 
 ```bash
 # Im Claude Code Prompt:
-/plugin marketplace update audit-skills
-/plugin update securityaudit@audit-skills   # etc. fuer jeden geupdateten Skill
+/plugin marketplace update Claudeskill
+/plugin update securityaudit@Claudeskill   # etc. fuer jeden geupdateten Skill
 ```
 
 ## Repo-Struktur (Referenz)

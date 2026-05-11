@@ -1,7 +1,8 @@
 {
-  "name": "audit-skills",
+  "name": "Claudeskill",
   "owner": {
-    "name": "Alexander Englaender"
+    "name": "Alexander Englaender",
+    "github": "alexenglaender-bot"
   },
   "plugins": [
     {
