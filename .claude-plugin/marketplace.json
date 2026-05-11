@@ -1,0 +1,48 @@
+{
+  "name": "audit-skills",
+  "owner": {
+    "name": "Alexander Englaender"
+  },
+  "plugins": [
+    {
+      "name": "securityaudit",
+      "source": "./plugins/securityaudit",
+      "description": "Ma-Management-spezifisches Security-Audit mit 12 Agenten, OWASP/ASVS/CWE/NIS2/DSGVO Art. 32 + Multi-Tenant Phase 2.5"
+    },
+    {
+      "name": "uiaudit",
+      "source": "./plugins/uiaudit",
+      "description": "Ma-Management-spezifisches UX-Audit mit 12 Agenten, Gastro-Personas (Tanja/Lukas/Gueler/Reinhard/Marcus) + Stress-Szenarien"
+    },
+    {
+      "name": "rechtsaudit",
+      "source": "./plugins/rechtsaudit",
+      "description": "Ma-Management-spezifisches rechtswissenschaftliches Audit mit 12 Agenten, 80+ DE/EU-Normen (DSGVO, ArbZG, GoBD, IfSG, ...)"
+    },
+    {
+      "name": "funktionsaudit",
+      "source": "./plugins/funktionsaudit",
+      "description": "Ma-Management-spezifisches E2E-/QA-Audit mit 12 Agenten, Browser-MCP, Mojibake-Check, 15 Workflows (WF-1..15)"
+    },
+    {
+      "name": "audit-security",
+      "source": "./plugins/audit-security",
+      "description": "Generisches Security-Audit fuer beliebige Codebases (Node/Python/Go/Java/Rust/PHP, REST/GraphQL/gRPC, SQL/NoSQL) mit 12 Agenten"
+    },
+    {
+      "name": "audit-ux",
+      "source": "./plugins/audit-ux",
+      "description": "Generisches UX-Audit fuer beliebige Apps mit User-definierten Personas + Stress-Szenarien, 12 Agenten"
+    },
+    {
+      "name": "audit-qa",
+      "source": "./plugins/audit-qa",
+      "description": "Generisches funktionales E2E-Audit fuer beliebige Apps, 12 Agenten, jedes Browser-Automation-Tool (Playwright/Browser-MCP/Selenium)"
+    },
+    {
+      "name": "audit-compliance",
+      "source": "./plugins/audit-compliance",
+      "description": "Generisches Compliance-/Legal-Audit fuer beliebige Software, User definiert Jurisdiktionen + Branche + Datenkategorien, 12 Agenten"
+    }
+  ]
+}

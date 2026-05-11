@@ -1,0 +1,5 @@
+{
+  "name": "audit-security",
+  "description": "Generisches Security-Audit fuer beliebige Codebases",
+  "version": "1.0.0"
+}

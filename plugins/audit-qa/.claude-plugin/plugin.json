@@ -1,0 +1,5 @@
+{
+  "name": "audit-qa",
+  "description": "Generisches E2E-/QA-Audit fuer beliebige Apps",
+  "version": "1.0.0"
+}
